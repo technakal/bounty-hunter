@@ -1,0 +1,28 @@
+:root {
+  --font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  background: #51a3a3;
+  font-family: Cambria, Cochin, Georgia,
+    Times, 'Times New Roman', serif;
+  font-size: var(--font-size);
+  padding: 1.5rem;
+}
+
+.centered-container {
+  align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
